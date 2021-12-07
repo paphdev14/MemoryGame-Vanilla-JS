@@ -106,7 +106,7 @@ h3{
 }
 
 #gameBoard{
-    display: none;
+    /* display: none; */
     background-color: rgb(0, 184, 190);
 }
 
@@ -162,11 +162,11 @@ img{
     transform: rotateY(180deg);
 }
 
-.game-card:hover .front-card{
+.card-flippep .front-card{
     transform: rotateY(-180deg);
 }
 
-.game-card:hover .back-card{
+.card-flippep .back-card{
     transform: rotateY(0deg);
 }
 
